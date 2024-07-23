@@ -1,19 +1,340 @@
 {% extends "layout.html" %}
 
-{% set title = 'Welcome' %}
+{% set title = 'Portfolio' %}
 
 {% block content %}
+<section class="home" id="home">
+    <div class="container">
+        <div class="landing">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12  tow">
+            <div class="content">
+                <h1>Hello I’am <span>Shaban.</span></h1>
+                <h1 class="active">Frontend <span>Developer</span></h1>
+                <h1>Based In<span>Egypt</span></h1>
+                <p>I'm shaban Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took
+                    a galley of type and scrambled it to specimen book.</p>
+                <div class="social-icons d-flex">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-solid fa-x"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
 
-    <section class="section">
-        <div class="container">
-            <h1>{{ welcome.title }}</h1>
-            <p>{{ welcome.description }}</p>
+            </div>
         </div>
-    </section>
+                <div class="col-xl-6 col-lg-6 col-md-12 one ">
+                    <div class="home-img">
+                <img src="/assets\images\Frame 20.png" alt="">
+            </div>
+        </div>
 
-    <h1>{{ dataAr.title }}</h1>
-    <h1>{{ dataEn.title }}</h1>
-    <h1>{{ homeDataAr.title }}</h1>
+    </div>
+</div>
+</div>
+</section>
 
+<!--Start  Skills-->
+<section class="Skills" id="skills">
+        <div class="container ">
+            <div class="Square ">
+                <h2>My <span>Skills</span> </h2>
+                <div class="row  row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1  ">
+                    <div class="col">
+                        <div class="x d-flex justify-content-center ">
+                            <a href=""><i class="fa-brands fa-git-alt"></i> <i class="fa-brands fa-git"></i> </a>
+
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="x d-flex justify-content-center ">
+
+                        <a href=""><i class="fa-brands fa-js"></i> javascript </a>
+                    </div>
+                </div>
+
+                    <div class="col">
+                        <div class="x d-flex justify-content-center ">
+
+                        <a href="#"><i class="fa-brands fa-sass"></i>Sass/scss</a>
+                    </div>
+                </div>
+
+                    <div class="col">
+                        <div class="x d-flex justify-content-center ">
+
+                        <a href="#"><img src="../assets/images/Vector (5).svg" alt=""></i><span>Nest.Js</span></a>
+                    </div>
+                </div>
+
+                    <div class="col">
+                        <div class="x d-flex justify-content-center ">
+                        <a href="#"><img src="/assets\images\icon-storybook.png" alt=""></i><span>Storybook</span></a>
+                    </div>
+                </div>
+
+                    <div class="col">
+                        <div class="x d-flex justify-content-center ">
+
+                        <a href="#"><img src="../assets/images/Vector (5).svg" alt=""></i><span>Nest.Js</span></a>
+                    </div>
+                </div>
+
+                    <div class="col">
+                        <div class="x d-flex justify-content-center ">
+
+                        <a href="#"><i class="fa-brands fa-git-alt"></i> <i class="fa-brands fa-git"></i> </a>
+                    </div>
+                </div>
+
+                    <div class="col">
+                        <div class="x d-flex justify-content-center ">
+
+                        <a href="#"><img src="/assets\images\icon-storybook.png" alt=""></i><span>Storybook</span></a>
+                    </div>
+                </div>
+
+                    <div class="col">
+                        <div class="x d-flex justify-content-center ">
+
+                        <a href="#"><img src="../assets/images/icon-socket.svg" alt=""></i><span>Storybook</span></i></a>
+                    </div>
+                </div>
+
+                    <div class="col">
+                        <div class="x d-flex justify-content-center ">
+
+                        <a href="#"><i class="fa-brands fa-sass"></i>Sass/scss</a>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+</section>
+<!--Start Skills -->
+
+<!--Start Articles -->
+<div class="articles" id="articles">
+    <div class="container">
+        <h2>My <span>Experience</span> </h2>
+        <div class="box">
+            <div class="info d-flex justify-content-between align-items-center">
+                        <a href=""><img src="../assets/images/google.svg" alt="">  Lead Software Engineer at Google </a>
+                 <span>Nov 2019 - Present   </span>               
+                   </div>
+                <p>
+                    During my tenure at Apple, I held the role of Software Architect, 
+                    where I played a key role in shaping the architecture of mission-critical 
+                    software projects. Responsible for designing scalable and efficient systems, 
+                    I provided technical leadership to a cross-functional team.
+                </p>
+            </div>
+            
+        
+        <div class="box">
+            <div class="info d-flex justify-content-between align-items-center">
+                        <a href=""><img src="../assets/images/youtube.svg" alt="">Software Engineer at Youtube</a>
+                    <Span>Jan 2017 - Oct 2019   </Span>  
+                </div>
+       
+                <p>
+                    During my tenure at Apple, I held the role of Software Architect, 
+                    where I played a key role in shaping the architecture of mission-critical 
+                    software projects. Responsible for designing scalable and efficient systems, 
+                    I provided technical leadership to a cross-functional team.
+                </p>
+            </div>
+         
+        <div class="box">
+                <div class="info d-flex justify-content-between align-items-center">
+                        <a href=""> <img src="../assets/images/apple.svg" alt=""> Junior Software Engineer at Apple</a>
+                    <Span>Jan 2016 - Dec 2017 </Span>               
+                </div>
+                <p>
+                    During my tenure at Apple, I held the role of Software Architect, 
+                    where I played a key role in shaping the architecture of mission-critical 
+                    software projects. Responsible for designing scalable and efficient systems, 
+                    I provided technical leadership to a cross-functional team.
+                </p>
+            </div>
+        </div>
+    </div>
+<!-- End Articles -->
+
+<!--Start  About-->
+<section class="about" id="about-Me">
+    <div class="container ">
+        <div class="Square ">
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 ">
+
+                    <div class="x d-flex justify-content-center ">
+                        <img src="../assets/images/Group 1000015845.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12  ">
+
+                    <h2>About <span>Me</span> </h2>
+
+                    <p> I'm a passionate, self-proclaimed designer who specializes in full stack development
+                        (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of 
+                        perfect design, and writing clear, readable, highly performant code matters to me. </p>
+                       <p>I began my journey as a web developer in 2015, and since then, I've continued to 
+                           grow and evolve as a developer, taking on new challenges and learning the latest technologies 
+                           along the way. Now, in my early thirties, 7 years after starting my web development journey, I'm building 
+                            Nestjs, Tailwindcss, Supabase and much more.</p>
+                       <p>When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.</p>
+                    </div>
+            </div>
+            </div>
+            </div>
+        </div>
+</section>
+<!--Start About -->
+
+
+<!--Start  About-->
+<section class="Projects" id="Project">
+    <div class="container ">
+        <div class="Square ">
+            <h2>My <span>Projects</span> </h2>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 order-1 ">
+                    <div class="x d-flex justify-content-center ">
+                        <img src="../assets/images/image 771.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 order-2 ">
+                    <div class="box">
+                        <span>  01</span>
+                        <h3> Crypto Screener Application </h3>
+                        <p>  I'm Evren Shah Lorem Ipsum is simply dummy text of the printing
+                             and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                              text ever since the 1500s, when an unknown printer 
+                            took a galley of type and scrambled it to specimen book.  </p>
+                            <img src="../assets/images/Read More.svg" alt="">
+                    </div>
+                
+                    </div>
+                </div>
+
+                    <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 tow ">
+                        <div class="box  ">
+                            <span>  02</span>
+                            <h3> Euphoria - Ecommerce (Apparels) Website Template</h3>
+                            <p> I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book.
+                                when an unknown printer took a galley of type and scrambled it to specimen book.  </p>
+                                <img src="../assets/images/Read More.svg" alt="">
+                        </div>
+                    
+                        </div> 
+                    <div class="col-xl-6 col-lg-6 col-md-12 one ">
+                        <div class="x d-flex justify-content-center  ">
+                            <img src="/assets\images\image 770 (1).png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="row">
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 ">
+                            <div class="x d-flex justify-content-center ">
+                                <img src="/assets\images\image 770.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12  ">
+                            <div class="box">
+                                <span>  03</span>
+                                <h3>Blog Website Template</h3>
+                                <p>  I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and 
+                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+                                    text ever since the 1500s, when an unknown printer
+                                     took a galley of type and scrambled it to specimen book. </p>
+                            </div>
+                        
+                            </div>
+            </div>
+            </div>
+            </div>
+</section>
+<!--Start About -->
+
+
+
+
+
+<!--Start  Testimonial-->
+<section class="Testimonial" id="Testimonial">
+    <div class="container ">
+            <h2>My <span>Testimonial</span> </h2>
+            <div class="row   ">
+                <div class="col-xl-4 col-lg-4 col-md-6  mb-4">
+                    <a href="#"><img src="/assets\images\Frame 18 (1).png" alt=""><p> I recently had to jump on 10+ different calls across eight
+                             different countries to find the right owner. </p><span class="active">Evren Shah </span> <span> Designer</span> </a>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6  mb-4">
+                    <a href="#"><img src="/assets\images\Frame 18.png" alt=""><p> I recently had to jump on 10+ different calls across eight
+                             different countries to find the right owner. </p><span class="active">Flora sheen </span> <span> Designer</span> </a>
+
+            </div>
+          
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-4 ">
+                <a href="#"><img src="/assets\images\Frame 18 (1).png" alt=""><p> I recently had to jump on 10+ different calls across eight
+                     different countries to find the right owner. </p><span class="active">Evren Shah </span> <span> Designer</span> </a>
+    </div>
+        </div>
+    </div>
+</section>
+<!--end Testimonial -->
+
+
+
+
+<!--Start  special-->
+<section class="special" id="Contact-me">
+    <div class="container ">
+
+                <div class="Square  ">
+                    <div class="row">
+
+                <div class="col-xl-6 col-lg-6 col-md-12 ">
+                        <form>
+                            <input type="Email" id="name" name="name"  placeholder="Your name" required>
+                            <input type="Email" id="Email" name="Email" placeholder="Email" required>
+                            <input type="Your website (If exists)" id="Your website (If exists)" name="Your website (If exists)" placeholder=" Your website (If exists) " required>
+                            <textarea id="message" name="message" placeholder=" How can I help?* " required></textarea>
+                        </form>
+
+                        <div class="social-icons d-flex">   
+                            <button type="button">Get In Touch</button>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="#"><i class="fa-solid fa-x"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+                          
+                        </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12  ">
+                    <h3>Let’s <span>talk</span> for </h3>
+                    <h3> Something special </h3>
+                    <p> I seek to push the limits of creativity to create high-engaging,
+            user-friendly, and memorable interactive experiences. </p>
+            <div class="d-flex flex-column info">
+                <a href="#"> Youremail@gmail.com </a>
+                <span> 1234567890 </span>
+            </div>
+                      
+                    </div>
+            </div>
+            </div>
+            </div>
+</section>
+<!--Start special -->
 
 {% endblock content %}
